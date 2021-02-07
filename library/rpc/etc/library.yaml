@@ -2,7 +2,7 @@ Name: library.rpc
 ListenOn: 127.0.0.1:8011
 Etcd:
   Hosts:
-  - 127.0.0.1:2379
+  - 192.168.1.145:2379
   Key: library.rpc
 Mysql:
-  DataSource: user:password@tcp(127.0.0.1:3306)/gozero?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+  DataSource: root:root@tcp(192.168.1.145:3306)/gozero?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
